@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"webpack --mode production",
+    "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
   "author": "",
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "babel-loader": "^8.1.0",
+    "copy-webpack-plugin": "^6.0.3",
     "html-webpack-plugin": "^4.3.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
